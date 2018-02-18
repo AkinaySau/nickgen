@@ -1,410 +1,410 @@
 [
   {
-    "prefix": "Ael",
+    "text": "Ael",
     "value": "рыцарь"
   },
   {
-    "prefix": "Aer",
+    "text": "Aer",
     "value": "закон, порядок"
   },
   {
-    "prefix": "Af",
+    "text": "Af",
     "value": "кольцо"
   },
   {
-    "prefix": "Ah",
+    "text": "Ah",
     "value": "хитрый"
   },
   {
-    "prefix": "Al",
+    "text": "Al",
     "value": "море, океан"
   },
   {
-    "prefix": "Am",
+    "text": "Am",
     "value": "лебедь"
   },
   {
-    "prefix": "Ama",
+    "text": "Ama",
     "value": "прекрасный"
   },
   {
-    "prefix": "An",
+    "text": "An",
     "value": "рука"
   },
   {
-    "prefix": "Ang",
+    "text": "Ang",
     "value": "блеск, блестеть"
   },
   {
-    "prefix": "Ansr",
+    "text": "Ansr",
     "value": "руна"
   },
   {
-    "prefix": "Ar",
+    "text": "Ar",
     "value": "золото, золотой"
   },
   {
-    "prefix": "Arм",
+    "text": "Arм",
     "value": "серебро, серебрянный"
   },
   {
-    "prefix": "Arn",
+    "text": "Arn",
     "value": "юг"
   },
   {
-    "prefix": "Aza",
+    "text": "Aza",
     "value": "жизнь, живой"
   },
   {
-    "prefix": "Bael",
+    "text": "Bael",
     "value": "защитник"
   },
   {
-    "prefix": "Bes",
+    "text": "Bes",
     "value": "клятва"
   },
   {
-    "prefix": "Cael",
+    "text": "Cael",
     "value": "лучник, стрела"
   },
   {
-    "prefix": "Cal",
+    "text": "Cal",
     "value": "вера"
   },
   {
-    "prefix": "Cas",
+    "text": "Cas",
     "value": "геральд"
   },
   {
-    "prefix": "Cla",
+    "text": "Cla",
     "value": "роза"
   },
   {
-    "prefix": "Cor",
+    "text": "Cor",
     "value": "легенда, легендарный"
   },
   {
-    "prefix": "Cy",
+    "text": "Cy",
     "value": "оникс"
   },
   {
-    "prefix": "Dae",
+    "text": "Dae",
     "value": "белый"
   },
   {
-    "prefix": "Dho",
+    "text": "Dho",
     "value": "сокол"
   },
   {
-    "prefix": "Dre",
+    "text": "Dre",
     "value": "собака"
   },
   {
-    "prefix": "Du",
+    "text": "Du",
     "value": "месяц (половинка луны)"
   },
   {
-    "prefix": "Eil",
+    "text": "Eil",
     "value": "голубой, синий"
   },
   {
-    "prefix": "Eir",
+    "text": "Eir",
     "value": "острый"
   },
   {
-    "prefix": "El",
+    "text": "El",
     "value": "зеленый"
   },
   {
-    "prefix": "Er",
+    "text": "Er",
     "value": "кабан, боров"
   },
   {
-    "prefix": "Ev",
+    "text": "Ev",
     "value": "олень"
   },
   {
-    "prefix": "Fera",
+    "text": "Fera",
     "value": "чемпион"
   },
   {
-    "prefix": "Fi",
+    "text": "Fi",
     "value": "река"
   },
   {
-    "prefix": "Fir",
+    "text": "Fir",
     "value": "темный"
   },
   {
-    "prefix": "Fis",
+    "text": "Fis",
     "value": "светлый"
   },
   {
-    "prefix": "Gael",
+    "text": "Gael",
     "value": "pegasus"
   },
   {
-    "prefix": "Gar",
+    "text": "Gar",
     "value": "сова"
   },
   {
-    "prefix": "Gil",
+    "text": "Gil",
     "value": "гриффон"
   },
   {
-    "prefix": "Ha",
+    "text": "Ha",
     "value": "свободный, свобода"
   },
   {
-    "prefix": "Hu",
+    "text": "Hu",
     "value": "лошадь"
   },
   {
-    "prefix": "Ia",
+    "text": "Ia",
     "value": "день"
   },
   {
-    "prefix": "Il",
+    "text": "Il",
     "value": "туман"
   },
   {
-    "prefix": "Ja",
+    "text": "Ja",
     "value": "посох"
   },
   {
-    "prefix": "Jar",
+    "text": "Jar",
     "value": "голубь"
   },
   {
-    "prefix": "Ka",
+    "text": "Ka",
     "value": "дракон"
   },
   {
-    "prefix": "Kan",
+    "text": "Kan",
     "value": "орел"
   },
   {
-    "prefix": "Ker",
+    "text": "Ker",
     "value": "заклятие"
   },
   {
-    "prefix": "Keth",
+    "text": "Keth",
     "value": "ветер"
   },
   {
-    "prefix": "Koeh",
+    "text": "Koeh",
     "value": "земля"
   },
   {
-    "prefix": "Kor",
+    "text": "Kor",
     "value": "черный"
   },
   {
-    "prefix": "Ky",
+    "text": "Ky",
     "value": "рубин"
   },
   {
-    "prefix": "La",
+    "text": "La",
     "value": "ночь"
   },
   {
-    "prefix": "Laf",
+    "text": "Laf",
     "value": "луна"
   },
   {
-    "prefix": "Lam",
+    "text": "Lam",
     "value": "восток"
   },
   {
-    "prefix": "Lue",
+    "text": "Lue",
     "value": "загадка"
   },
   {
-    "prefix": "Ly",
+    "text": "Ly",
     "value": "волк"
   },
   {
-    "prefix": "Mai",
+    "text": "Mai",
     "value": "смерть, убийца"
   },
   {
-    "prefix": "Mal",
+    "text": "Mal",
     "value": "война"
   },
   {
-    "prefix": "Mara",
+    "text": "Mara",
     "value": "священник"
   },
   {
-    "prefix": "My",
+    "text": "My",
     "value": "изумруд"
   },
   {
-    "prefix": "Na",
+    "text": "Na",
     "value": "древний"
   },
   {
-    "prefix": "Nai",
+    "text": "Nai",
     "value": "дуб"
   },
   {
-    "prefix": "Nim",
+    "text": "Nim",
     "value": "глубокий"
   },
   {
-    "prefix": "Nu",
+    "text": "Nu",
     "value": "надежда, надеющийся"
   },
   {
-    "prefix": "Ny",
+    "text": "Ny",
     "value": "алмаз"
   },
   {
-    "prefix": "Py",
+    "text": "Py",
     "value": "сапфир"
   },
   {
-    "prefix": "Raer",
+    "text": "Raer",
     "value": "единорог"
   },
   {
-    "prefix": "Re",
+    "text": "Re",
     "value": "медведь"
   },
   {
-    "prefix": "Ren",
+    "text": "Ren",
     "value": "запад"
   },
   {
-    "prefix": "Rhy",
+    "text": "Rhy",
     "value": "нефрит"
   },
   {
-    "prefix": "Ry",
+    "text": "Ry",
     "value": "нефрит"
   },
   {
-    "prefix": "Ru",
+    "text": "Ru",
     "value": "мечта"
   },
   {
-    "prefix": "Rua",
+    "text": "Rua",
     "value": "звезда"
   },
   {
-    "prefix": "Rum",
+    "text": "Rum",
     "value": "луг"
   },
   {
-    "prefix": "Rid",
+    "text": "Rid",
     "value": "копье"
   },
   {
-    "prefix": "Sae",
+    "text": "Sae",
     "value": "лес"
   },
   {
-    "prefix": "Seh",
+    "text": "Seh",
     "value": "мягкий"
   },
   {
-    "prefix": "Sel",
+    "text": "Sel",
     "value": "высокий"
   },
   {
-    "prefix": "Sha",
+    "text": "Sha",
     "value": "солнце"
   },
   {
-    "prefix": "She",
+    "text": "She",
     "value": "век, время"
   },
   {
-    "prefix": "Si",
+    "text": "Si",
     "value": "кот, кошка"
   },
   {
-    "prefix": "Sim",
+    "text": "Sim",
     "value": "север"
   },
   {
-    "prefix": "Sol",
+    "text": "Sol",
     "value": "история, память"
   },
   {
-    "prefix": "Sum",
+    "text": "Sum",
     "value": "вода"
   },
   {
-    "prefix": "Syl",
+    "text": "Syl",
     "value": "faerie нечто волшебное, предположительно фея"
   },
   {
-    "prefix": "Ta",
+    "text": "Ta",
     "value": "лиса"
   },
   {
-    "prefix": "Tahl",
+    "text": "Tahl",
     "value": "клинок"
   },
   {
-    "prefix": "Tha",
+    "text": "Tha",
     "value": "бдительный"
   },
   {
-    "prefix": "Tho",
+    "text": "Tho",
     "value": "правдивый, истинный, правда"
   },
   {
-    "prefix": "Ther",
+    "text": "Ther",
     "value": "небо"
   },
   {
-    "prefix": "Thro",
+    "text": "Thro",
     "value": "знание, мудрец"
   },
   {
-    "prefix": "Tia",
+    "text": "Tia",
     "value": "магия"
   },
   {
-    "prefix": "Tra",
+    "text": "Tra",
     "value": "дерево"
   },
   {
-    "prefix": "Ty",
+    "text": "Ty",
     "value": "кристал"
   },
   {
-    "prefix": "Try",
+    "text": "Try",
     "value": "кристал"
   },
   {
-    "prefix": "Uth",
+    "text": "Uth",
     "value": "волшебник"
   },
   {
-    "prefix": "Ver",
+    "text": "Ver",
     "value": "мир"
   },
   {
-    "prefix": "Vil",
+    "text": "Vil",
     "value": "палец, указание"
   },
   {
-    "prefix": "Von",
+    "text": "Von",
     "value": "лед"
   },
   {
-    "prefix": "Ya",
+    "text": "Ya",
     "value": "мост, дорога, путь"
   },
   {
-    "prefix": "Za",
+    "text": "Za",
     "value": "королевский"
   },
   {
-    "prefix": "Zy",
+    "text": "Zy",
     "value": "цвет слоновой кости"
   }
 ]

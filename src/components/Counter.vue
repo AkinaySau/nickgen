@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h6 v-if="title">{{title}}</h6>
+    <div class="form-group col-md-6">
+        <label v-if="label">{{label}}</label>
         <div class="input-group">
             <div class="input-group-prepend">
                 <button v-on:click="downCount" class="btn btn-danger">-</button>
@@ -15,9 +15,6 @@
 </template>
 
 <script>
-    //require('../js/input-filter.js');
-
-    // filter.numeric();
     export default {
         name: "counter",
         data: function () {
@@ -30,7 +27,7 @@
                 type: Number,
                 required: true
             },
-            title: {
+            label: {
                 type: String,
                 default: ''
             },

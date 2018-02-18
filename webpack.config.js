@@ -65,6 +65,7 @@ module.exports = {
             '$': 'jquery',
             'jQuery': 'jquery',
             '_': 'lodash',
+            'Sau':['/var/www/html/sau/vue/nicGen/lib/Sau.js']
         })
     ],
     devtool: '#eval-source-map'
