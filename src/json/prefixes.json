@@ -1,0 +1,410 @@
+[
+  {
+    "prefix": "Ael",
+    "value": "рыцарь"
+  },
+  {
+    "prefix": "Aer",
+    "value": "закон, порядок"
+  },
+  {
+    "prefix": "Af",
+    "value": "кольцо"
+  },
+  {
+    "prefix": "Ah",
+    "value": "хитрый"
+  },
+  {
+    "prefix": "Al",
+    "value": "море, океан"
+  },
+  {
+    "prefix": "Am",
+    "value": "лебедь"
+  },
+  {
+    "prefix": "Ama",
+    "value": "прекрасный"
+  },
+  {
+    "prefix": "An",
+    "value": "рука"
+  },
+  {
+    "prefix": "Ang",
+    "value": "блеск, блестеть"
+  },
+  {
+    "prefix": "Ansr",
+    "value": "руна"
+  },
+  {
+    "prefix": "Ar",
+    "value": "золото, золотой"
+  },
+  {
+    "prefix": "Arм",
+    "value": "серебро, серебрянный"
+  },
+  {
+    "prefix": "Arn",
+    "value": "юг"
+  },
+  {
+    "prefix": "Aza",
+    "value": "жизнь, живой"
+  },
+  {
+    "prefix": "Bael",
+    "value": "защитник"
+  },
+  {
+    "prefix": "Bes",
+    "value": "клятва"
+  },
+  {
+    "prefix": "Cael",
+    "value": "лучник, стрела"
+  },
+  {
+    "prefix": "Cal",
+    "value": "вера"
+  },
+  {
+    "prefix": "Cas",
+    "value": "геральд"
+  },
+  {
+    "prefix": "Cla",
+    "value": "роза"
+  },
+  {
+    "prefix": "Cor",
+    "value": "легенда, легендарный"
+  },
+  {
+    "prefix": "Cy",
+    "value": "оникс"
+  },
+  {
+    "prefix": "Dae",
+    "value": "белый"
+  },
+  {
+    "prefix": "Dho",
+    "value": "сокол"
+  },
+  {
+    "prefix": "Dre",
+    "value": "собака"
+  },
+  {
+    "prefix": "Du",
+    "value": "месяц (половинка луны)"
+  },
+  {
+    "prefix": "Eil",
+    "value": "голубой, синий"
+  },
+  {
+    "prefix": "Eir",
+    "value": "острый"
+  },
+  {
+    "prefix": "El",
+    "value": "зеленый"
+  },
+  {
+    "prefix": "Er",
+    "value": "кабан, боров"
+  },
+  {
+    "prefix": "Ev",
+    "value": "олень"
+  },
+  {
+    "prefix": "Fera",
+    "value": "чемпион"
+  },
+  {
+    "prefix": "Fi",
+    "value": "река"
+  },
+  {
+    "prefix": "Fir",
+    "value": "темный"
+  },
+  {
+    "prefix": "Fis",
+    "value": "светлый"
+  },
+  {
+    "prefix": "Gael",
+    "value": "pegasus"
+  },
+  {
+    "prefix": "Gar",
+    "value": "сова"
+  },
+  {
+    "prefix": "Gil",
+    "value": "гриффон"
+  },
+  {
+    "prefix": "Ha",
+    "value": "свободный, свобода"
+  },
+  {
+    "prefix": "Hu",
+    "value": "лошадь"
+  },
+  {
+    "prefix": "Ia",
+    "value": "день"
+  },
+  {
+    "prefix": "Il",
+    "value": "туман"
+  },
+  {
+    "prefix": "Ja",
+    "value": "посох"
+  },
+  {
+    "prefix": "Jar",
+    "value": "голубь"
+  },
+  {
+    "prefix": "Ka",
+    "value": "дракон"
+  },
+  {
+    "prefix": "Kan",
+    "value": "орел"
+  },
+  {
+    "prefix": "Ker",
+    "value": "заклятие"
+  },
+  {
+    "prefix": "Keth",
+    "value": "ветер"
+  },
+  {
+    "prefix": "Koeh",
+    "value": "земля"
+  },
+  {
+    "prefix": "Kor",
+    "value": "черный"
+  },
+  {
+    "prefix": "Ky",
+    "value": "рубин"
+  },
+  {
+    "prefix": "La",
+    "value": "ночь"
+  },
+  {
+    "prefix": "Laf",
+    "value": "луна"
+  },
+  {
+    "prefix": "Lam",
+    "value": "восток"
+  },
+  {
+    "prefix": "Lue",
+    "value": "загадка"
+  },
+  {
+    "prefix": "Ly",
+    "value": "волк"
+  },
+  {
+    "prefix": "Mai",
+    "value": "смерть, убийца"
+  },
+  {
+    "prefix": "Mal",
+    "value": "война"
+  },
+  {
+    "prefix": "Mara",
+    "value": "священник"
+  },
+  {
+    "prefix": "My",
+    "value": "изумруд"
+  },
+  {
+    "prefix": "Na",
+    "value": "древний"
+  },
+  {
+    "prefix": "Nai",
+    "value": "дуб"
+  },
+  {
+    "prefix": "Nim",
+    "value": "глубокий"
+  },
+  {
+    "prefix": "Nu",
+    "value": "надежда, надеющийся"
+  },
+  {
+    "prefix": "Ny",
+    "value": "алмаз"
+  },
+  {
+    "prefix": "Py",
+    "value": "сапфир"
+  },
+  {
+    "prefix": "Raer",
+    "value": "единорог"
+  },
+  {
+    "prefix": "Re",
+    "value": "медведь"
+  },
+  {
+    "prefix": "Ren",
+    "value": "запад"
+  },
+  {
+    "prefix": "Rhy",
+    "value": "нефрит"
+  },
+  {
+    "prefix": "Ry",
+    "value": "нефрит"
+  },
+  {
+    "prefix": "Ru",
+    "value": "мечта"
+  },
+  {
+    "prefix": "Rua",
+    "value": "звезда"
+  },
+  {
+    "prefix": "Rum",
+    "value": "луг"
+  },
+  {
+    "prefix": "Rid",
+    "value": "копье"
+  },
+  {
+    "prefix": "Sae",
+    "value": "лес"
+  },
+  {
+    "prefix": "Seh",
+    "value": "мягкий"
+  },
+  {
+    "prefix": "Sel",
+    "value": "высокий"
+  },
+  {
+    "prefix": "Sha",
+    "value": "солнце"
+  },
+  {
+    "prefix": "She",
+    "value": "век, время"
+  },
+  {
+    "prefix": "Si",
+    "value": "кот, кошка"
+  },
+  {
+    "prefix": "Sim",
+    "value": "север"
+  },
+  {
+    "prefix": "Sol",
+    "value": "история, память"
+  },
+  {
+    "prefix": "Sum",
+    "value": "вода"
+  },
+  {
+    "prefix": "Syl",
+    "value": "faerie нечто волшебное, предположительно фея"
+  },
+  {
+    "prefix": "Ta",
+    "value": "лиса"
+  },
+  {
+    "prefix": "Tahl",
+    "value": "клинок"
+  },
+  {
+    "prefix": "Tha",
+    "value": "бдительный"
+  },
+  {
+    "prefix": "Tho",
+    "value": "правдивый, истинный, правда"
+  },
+  {
+    "prefix": "Ther",
+    "value": "небо"
+  },
+  {
+    "prefix": "Thro",
+    "value": "знание, мудрец"
+  },
+  {
+    "prefix": "Tia",
+    "value": "магия"
+  },
+  {
+    "prefix": "Tra",
+    "value": "дерево"
+  },
+  {
+    "prefix": "Ty",
+    "value": "кристал"
+  },
+  {
+    "prefix": "Try",
+    "value": "кристал"
+  },
+  {
+    "prefix": "Uth",
+    "value": "волшебник"
+  },
+  {
+    "prefix": "Ver",
+    "value": "мир"
+  },
+  {
+    "prefix": "Vil",
+    "value": "палец, указание"
+  },
+  {
+    "prefix": "Von",
+    "value": "лед"
+  },
+  {
+    "prefix": "Ya",
+    "value": "мост, дорога, путь"
+  },
+  {
+    "prefix": "Za",
+    "value": "королевский"
+  },
+  {
+    "prefix": "Zy",
+    "value": "цвет слоновой кости"
+  }
+]
