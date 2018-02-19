@@ -1,133 +1,794 @@
-ae  : шепот, шепчущий
-nae : шепот, шепчущий
-ael : великий
-ali : тень
-ari : весна
-ri : весна
-aro  : лето
-ro : лето
-as : лук
-ash : лук
-sah : лук
-//ath : by, of, with (думаю понятно)
-avel : меч
-brar  : ремесло, ремесленник
-abrar : ремесло, ремесленник
-ibrar : ремесло, ремесленник
-dar : мир
-adar: мир
-odar: мир
-deth  : вечный
-eath : вечный
-eth : вечный
-dre : очарование, чарующий
-drim : полет, летающий
-drimme : полет, летающий
-udrim : полет, летающий
-dul : лужайка, поляна
-ean : езда, всадник
-el: ястреб
-ele : ястреб
-ela : ястреб
-emar : честь
-en : осень
-er  : зима
-erl : зима
-ern : зима
-ess  : эльфийский
-esti : эльфийский
-evar : флейта
-fel  : озеро
-afel : озеро
-efel : озеро
-hal  : бледный, слабый
-ahal : бледный, слабый
-ihal : бледный, слабый
-har  : мудрость, мудрый
-ihar : мудрость, мудрый
-uhar : мудрость, мудрый
-hel : печаль, слезы, печальный
-ahel : печаль, слезы, печальный
-ihel : печаль, слезы, печальный
-iat : огонь
-ik : сила, мощь, сильный, мощный
-il  : подарок, подающий
-iel : подарок, подающий
-ila : подарок, подающий
-lie : подарок, подающий
-im : долг
-in  : родня, брат / сестра
-inar : родня, брат / сестра
-ine : родня, брат / сестра
-ir  : сумерки
-ira : сумерки
-ire : сумерки
-is  : свиток
-iss : свиток
-ist : свиток
-ith  : дитя, юный
-lath  : дитя, юный
-lith  : дитя, юный
-lyth : дитя, юный
-kash : судьба
-ashk : судьба
-okash : судьба
-ki : пустота
-lam  : fair, справделивый, прекрасный
-ilam : fair, справделивый, прекрасный
-ulam : fair, справделивый, прекрасный
-lar
-lirr : сияние, сияющий
-las : дикий
-lian / -lia : хозяин, госпожа
-lis (-elis; -lys) : бриз
-lon (-ellon) : вождь, правитель
-lyn (-llinn; -lihn) : болт, луч
-mah / -ma (-mahs) : маг
-mil (-imil; -umil) : обязательство, обещание, обещающий
-mus : союзник, компаньен
-nal (-inal; -onal) : даль, далекий, отдаленный
-nes : сердце
-nin (-nine; -nyn) : обряд, ритуал
-nis (-anis) : рассвет
-on/onna: хранить, хранитель
-or (oro): цветок
-oth (-othi) : врата
-que : потерянный, забытый
-quis : конечность, часть чего-то, ветвь
-rah(-rae; -raee) : зверь
-rad(-rahd) : лист
-rail/-ria (-aral; -ral; -ryl) : охота, охотник
-ran (-re; -reen) : заточение, кандалы, оковы
-reth (-rath) : тайный
-ro (-ri; -ron) : путь, путешествие, идущий, странник
-ruil (-aruil; -eruil) : благородный
-sal (-isal; -sali) : мёд, медовый, сладкий, нежный
-san : питье, напиток, вино
-sar (-asar; -isar) : задание, поиск, ищущий
-sel (-asel; -isel) : гора
-sha (-she; -shor) : океан
-spar : кулак
-tae (-itae) : возлюбленный, любовь
-tas (-itas) : стена, опека, ограда
-ten (-iten) : прядильщик; прядильщица
-thal /-tha (-ethal / -etha) : лечение, лечить, целитель
-thar (-ethar; -ithar) : друг
-ther (-ather; -thir) : броня, защита, покровительство
-thi (-ethil; -thil) : крыло, крылатый
-thus /-thas (-aethus / -aethas) : арфа, арфист
-ti (-eti;-til) : глаз, взгляд
-tril /-tria (-atri; -atril / -atria) : танец, танцор
-ual (-lua) : святой
-uath (-luth; -uth) : копье
-us /-ua : родственник, родственный
-van /-vanna : чаща, лес
-var /-vara (-avar / -avara) :отец / мать
-vain (-avain) : дух
-via (-avia) : удача, удачливый
-vin (-avin) : шторм
-wyn : музыка, музыкант
-ya : шлем
-yr / -yn : вестник
-yth : народ, персона
-/-zara (-azair / -ezara) : молния
+[
+	{
+		"inscription" : {
+			"general" : ["ae",  "nae"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "шепот, шепчущий"
+	},
+	{
+		"inscription" : {
+			"general" : ["ael"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "великий"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["aer"],
+			"female" : ["aera"]
+		},
+		"value" : "певец, песнь, звук, поющий"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["aias"],
+			"female" : ["aia"]
+		},
+		"value" : "муж/жена"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["ah"],
+			"female" : ["aha"]
+		},
+		"value" : "палочка, жезл"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["aith"],
+			"female" : ["aira"]
+		},
+		"value" : "дом"
+	},
+	{
+		"inscription" : {
+			"general" : [ "la",  "lae",  "llae"],
+			"male" : ["al"],
+			"female" : ["ala"]
+		},
+		"value" : "гармония"
+	},
+	{
+		"inscription" : {
+			"general" : ["ali"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "тень"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["am"],
+			"female" : ["ama"]
+		},
+		"value" : "\"strider\", бродяжник, бродяга, бродящий"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["an"],
+			"female" : ["ana",  "a",  "ani",  "uanna"]
+		},
+		"value" : "творить, творец, создатель"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["ar"],
+			"female" : ["ara",  "ra"]
+		},
+		"value" : "мужчина/женщина"
+	},
+	{
+		"inscription" : {
+			"general" : ["ari",  "ri"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "весна"
+	},
+	{
+		"inscription" : {
+			"general" : ["aro",  "ro"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "лето"
+	},
+	{
+		"inscription" : {
+			"general" : ["as",  "ash",  "sah"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "лук"
+	},
+	{
+		"inscription" : {
+			"general" : ["avel"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "меч"
+	},
+	{
+		"inscription" : {
+			"general" : ["brar",  "abrar",  "ibrar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "ремесло, ремесленник"
+	},
+	{
+		"inscription" : {
+			"general" : ["dar",  "adar",  "odar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "мир"
+	},
+	{
+		"inscription" : {
+			"general" : ["deth",  "eath",  "eth"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "вечный"
+	},
+	{
+		"inscription" : {
+			"general" : ["dre"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "очарование, чарующий"
+	},
+	{
+		"inscription" : {
+			"general" : ["drim",  "drimme",  "udrim"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "полет, летающий"
+	},
+	{
+		"inscription" : {
+			"general" : ["dul"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "лужайка, поляна"
+	},
+	{
+		"inscription" : {
+			"general" : ["ean"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "езда, всадник"
+	},
+	{
+		"inscription" : {
+			"general" : ["el"],
+			"male" : ["ele"],
+			"female" : ["ela"]
+		},
+		"value" : "ястреб"
+	},
+	{
+		"inscription" : {
+			"general" : ["emar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "честь"
+	},
+	{
+		"inscription" : {
+			"general" : ["en"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "осень"
+	},
+	{
+		"inscription" : {
+			"general" : ["er",  "erl",  "ern"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "зима"
+	},
+	{
+		"inscription" : {
+			"general" : ["ess",  "esti"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "эльфийский"
+	},
+	{
+		"inscription" : {
+			"general" : ["evar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "флейта"
+	},
+	{
+		"inscription" : {
+			"general" : ["fel",  "afel",  "efel"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "озеро"
+	},
+	{
+		"inscription" : {
+			"general" : ["hal",  "ahal",  "ihal"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "бледный, слабый"
+	},
+	{
+		"inscription" : {
+			"general" : ["har",  "ihar",  "uhar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "мудрость, мудрый"
+	},
+	{
+		"inscription" : {
+			"general" : ["hel",  "ahel",  "ihel"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "печаль, слезы, печальный"
+	},
+	{
+		"inscription" : {
+			"general" : [ "ia",  "ii",  "ion"],
+			"male" : ["ian"],
+			"female" : ["ianna"]
+		},
+		"value" : "лорд/леди"
+	},
+	{
+		"inscription" : {
+			"general" : ["iat"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "огонь"
+	},
+	{
+		"inscription" : {
+			"general" : ["ik"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "сила, мощь, сильный, мощный"
+	},
+	{
+		"inscription" : {
+			"general" : ["il",  "iel",  "ila",  "lie"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "подарок, подающий"
+	},
+	{
+		"inscription" : {
+			"general" : ["im"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "долг"
+	},
+	{
+		"inscription" : {
+			"general" : ["in"],
+			"male" : ["inar"],
+			"female" : ["ine"]
+		},
+		"value" : "родня, брат/сестра"
+	},
+	{
+		"inscription" : {
+			"general" : ["ir",  "ira",  "ire"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "сумерки"
+	},
+	{
+		"inscription" : {
+			"general" : ["is",  "iss",  "ist"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "свиток"
+	},
+	{
+		"inscription" : {
+			"general" : ["ith",  "lath",  "lith",  "lyth"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "дитя, юный"
+	},
+	{
+		"inscription" : {
+			"general" : ["kash", "ashk", "okash"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "судьба"
+	},
+	{
+		"inscription" : {
+			"general" : ["ki"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "пустота"
+	},
+	{
+		"inscription" : {
+			"general" : ["lean"],
+			"male" : ["lan", "olan"],
+			"female" : ["lanna", "ola"]
+		},
+		"value" : "сын/дочь"
+	},
+	{
+		"inscription" : {
+			"general" : ["lam", "ilam", "ulam"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "\"fair\", справделивый, прекрасный"
+	},
+	{
+		"inscription" : {
+			"general" : ["lar", "lirr"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "сияние, сияющий"
+	},
+	{
+		"inscription" : {
+			"general" : ["las"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "дикий"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["lian"],
+			"female" : ["lia"]
+		},
+		"value" : "хозяин, госпожа"
+	},
+	{
+		"inscription" : {
+			"general" : ["lis", "elis", "lys"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "бриз"
+	},
+	{
+		"inscription" : {
+			"general" : ["lon", "ellon"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "вождь, правитель"
+	},
+	{
+		"inscription" : {
+			"general" : ["lyn", "llinn", "lihn"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "болт, луч"
+	},
+	{
+		"inscription" : {
+			"general" : ["mahs"],
+			"male" : ["mah"],
+			"female" : ["ma"]
+		},
+		"value" : "маг"
+	},
+	{
+		"inscription" : {
+			"general" : ["mil", "imil", "umil"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "обязательство, обещание, обещающий"
+	},
+	{
+		"inscription" : {
+			"general" : ["mus"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "союзник, компаньен"
+	},
+	{
+		"inscription" : {
+			"general" : ["nal", "inal", "onal"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "даль, далекий, отдаленный"
+	},
+	{
+		"inscription" : {
+			"general" : ["nes"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "сердце"
+	},
+	{
+		"inscription" : {
+			"general" : ["nin", "nine", "nyn"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "обряд, ритуал"
+	},
+	{
+		"inscription" : {
+			"general" : ["nis", "anis"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "рассвет"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["on"],
+			"female" : ["onna"]
+		},
+		"value" : "хранить, хранитель"
+	},
+	{
+		"inscription" : {
+			"general" : ["or", "oro"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "цветок"
+	},
+	{
+		"inscription" : {
+			"general" : ["oth", "othi"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "врата"
+	},
+	{
+		"inscription" : {
+			"general" : ["que"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "потерянный, забытый"
+	},
+	{
+		"inscription" : {
+			"general" : ["quis"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "конечность, частьчегото, ветвь"
+	},
+	{
+		"inscription" : {
+			"general" : ["rah", "rae", "raee"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "зверь"
+	},
+	{
+		"inscription" : {
+			"general" : ["rad", "rahd"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "лист"
+	},
+	{
+		"inscription" : {
+			"general" : ["aral", "ral", "ryl"],
+			"male" : ["rail"],
+			"female" : ["ria"]
+		},
+		"value" : "охота, охотник"
+	},
+	{
+		"inscription" : {
+			"general" : ["ran", "re", "reen"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "заточение, кандалы, оковы"
+	},
+	{
+		"inscription" : {
+			"general" : ["reth", "rath"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "тайный"
+	},
+	{
+		"inscription" : {
+			"general" : ["ro", "ri", "ron"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "путь, путешествие, идущий, странник"
+	},
+	{
+		"inscription" : {
+			"general" : ["ruil", "aruil", "eruil"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "благородный"
+	},
+	{
+		"inscription" : {
+			"general" : ["sal", "isal", "sali"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "мёд,  медовый,  сладкий,  нежный"
+	},
+	{
+		"inscription" : {
+			"general" : ["san"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "питье,  напиток,  вино"
+	},
+	{
+		"inscription" : {
+			"general" : ["sar", "asar", "isar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "задание,  поиск,  ищущий"
+	},
+	{
+		"inscription" : {
+			"general" : ["sel", "asel", "isel"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "гора"
+	},
+	{
+		"inscription" : {
+			"general" : ["sha", "she", "shor"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "океан"
+	},
+	{
+		"inscription" : {
+			"general" : ["spar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "кулак"
+	},
+	{
+		"inscription" : {
+			"general" : ["tae", "itae"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "возлюбленный,  любовь"
+	},
+	{
+		"inscription" : {
+			"general" : ["tas", "itas"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "стена,  опека,  ограда"
+	},
+	{
+		"inscription" : {
+			"general" : ["ten", "iten"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "прядильщик,  прядильщица"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["thal", "ethal"],
+			"female" : ["tha", "etha"]
+		},
+		"value" : "лечение, лечить, целитель"
+	},
+	{
+		"inscription" : {
+			"general" : ["thar", "ethar", "ithar"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "друг"
+	},
+	{
+		"inscription" : {
+			"general" : ["ther", "ather", "thir"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "броня, защита, покровительство"
+	},
+	{
+		"inscription" : {
+			"general" : ["thi", "ethil", "thil"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "крыло, крылатый"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["thus", "aethus"],
+			"female" : ["thas", "aethas"]
+		},
+		"value" : "арфа, арфист"
+	},
+	{
+		"inscription" : {
+			"general" : ["ti", "eti", "til"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "глаз, взгляд"
+	},
+	{
+		"inscription" : {
+			"general" : ["atri"],
+			"male" : ["tril", "atril"],
+			"female" : ["tria", "atria"]
+		},
+		"value" : "танец, танцор"
+	},
+	{
+		"inscription" : {
+			"general" : ["ual", "lua"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "святой"
+	},
+	{
+		"inscription" : {
+			"general" : ["uath", "luth", "uth"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "копье"
+	},
+	{
+		"inscription" : {
+			"general" : ["us"],
+			"male" : [],
+			"female" : ["ua"]
+		},
+		"value" : "родственник, родственный"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["van"],
+			"female" : ["vanna"]
+		},
+		"value" : "чаща, лес"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["var", "avar"],
+			"female" : ["vara", "avara"]
+		},
+		"value" : "отец/мать"
+	},
+	{
+		"inscription" : {
+			"general" : ["vain", "avain"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "дух"
+	},
+	{
+		"inscription" : {
+			"general" : ["via", "avia"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "удача,  удачливый"
+	},
+	{
+		"inscription" : {
+			"general" : ["vin", "avin"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "шторм"
+	},
+	{
+		"inscription" : {
+			"general" : ["wyn"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "музыка,  музыкант"
+	},
+	{
+		"inscription" : {
+			"general" : ["ya"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "шлем"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["yr"],
+			"female" : ["yn"]
+		},
+		"value" : "вестник"
+	},
+	{
+		"inscription" : {
+			"general" : ["yth"],
+			"male" : [],
+			"female" : []
+		},
+		"value" : "народ,  персона"
+	},
+	{
+		"inscription" : {
+			"general" : [],
+			"male" : ["zair", "azair"],
+			"female" : ["zara", "ezara"]
+		},
+		"value" : "молния"
+	}
+]
