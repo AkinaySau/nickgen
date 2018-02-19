@@ -1,410 +1,402 @@
 [
-  {
-    "text": "Ael",
-    "value": "рыцарь"
-  },
-  {
-    "text": "Aer",
-    "value": "закон, порядок"
-  },
-  {
-    "text": "Af",
-    "value": "кольцо"
-  },
-  {
-    "text": "Ah",
-    "value": "хитрый"
-  },
-  {
-    "text": "Al",
-    "value": "море, океан"
-  },
-  {
-    "text": "Am",
-    "value": "лебедь"
-  },
-  {
-    "text": "Ama",
-    "value": "прекрасный"
-  },
-  {
-    "text": "An",
-    "value": "рука"
-  },
-  {
-    "text": "Ang",
-    "value": "блеск, блестеть"
-  },
-  {
-    "text": "Ansr",
-    "value": "руна"
-  },
-  {
-    "text": "Ar",
-    "value": "золото, золотой"
-  },
-  {
-    "text": "Arм",
-    "value": "серебро, серебрянный"
-  },
-  {
-    "text": "Arn",
-    "value": "юг"
-  },
-  {
-    "text": "Aza",
-    "value": "жизнь, живой"
-  },
-  {
-    "text": "Bael",
-    "value": "защитник"
-  },
-  {
-    "text": "Bes",
-    "value": "клятва"
-  },
-  {
-    "text": "Cael",
-    "value": "лучник, стрела"
-  },
-  {
-    "text": "Cal",
-    "value": "вера"
-  },
-  {
-    "text": "Cas",
-    "value": "геральд"
-  },
-  {
-    "text": "Cla",
-    "value": "роза"
-  },
-  {
-    "text": "Cor",
-    "value": "легенда, легендарный"
-  },
-  {
-    "text": "Cy",
-    "value": "оникс"
-  },
-  {
-    "text": "Dae",
-    "value": "белый"
-  },
-  {
-    "text": "Dho",
-    "value": "сокол"
-  },
-  {
-    "text": "Dre",
-    "value": "собака"
-  },
-  {
-    "text": "Du",
-    "value": "месяц (половинка луны)"
-  },
-  {
-    "text": "Eil",
-    "value": "голубой, синий"
-  },
-  {
-    "text": "Eir",
-    "value": "острый"
-  },
-  {
-    "text": "El",
-    "value": "зеленый"
-  },
-  {
-    "text": "Er",
-    "value": "кабан, боров"
-  },
-  {
-    "text": "Ev",
-    "value": "олень"
-  },
-  {
-    "text": "Fera",
-    "value": "чемпион"
-  },
-  {
-    "text": "Fi",
-    "value": "река"
-  },
-  {
-    "text": "Fir",
-    "value": "темный"
-  },
-  {
-    "text": "Fis",
-    "value": "светлый"
-  },
-  {
-    "text": "Gael",
-    "value": "pegasus"
-  },
-  {
-    "text": "Gar",
-    "value": "сова"
-  },
-  {
-    "text": "Gil",
-    "value": "гриффон"
-  },
-  {
-    "text": "Ha",
-    "value": "свободный, свобода"
-  },
-  {
-    "text": "Hu",
-    "value": "лошадь"
-  },
-  {
-    "text": "Ia",
-    "value": "день"
-  },
-  {
-    "text": "Il",
-    "value": "туман"
-  },
-  {
-    "text": "Ja",
-    "value": "посох"
-  },
-  {
-    "text": "Jar",
-    "value": "голубь"
-  },
-  {
-    "text": "Ka",
-    "value": "дракон"
-  },
-  {
-    "text": "Kan",
-    "value": "орел"
-  },
-  {
-    "text": "Ker",
-    "value": "заклятие"
-  },
-  {
-    "text": "Keth",
-    "value": "ветер"
-  },
-  {
-    "text": "Koeh",
-    "value": "земля"
-  },
-  {
-    "text": "Kor",
-    "value": "черный"
-  },
-  {
-    "text": "Ky",
-    "value": "рубин"
-  },
-  {
-    "text": "La",
-    "value": "ночь"
-  },
-  {
-    "text": "Laf",
-    "value": "луна"
-  },
-  {
-    "text": "Lam",
-    "value": "восток"
-  },
-  {
-    "text": "Lue",
-    "value": "загадка"
-  },
-  {
-    "text": "Ly",
-    "value": "волк"
-  },
-  {
-    "text": "Mai",
-    "value": "смерть, убийца"
-  },
-  {
-    "text": "Mal",
-    "value": "война"
-  },
-  {
-    "text": "Mara",
-    "value": "священник"
-  },
-  {
-    "text": "My",
-    "value": "изумруд"
-  },
-  {
-    "text": "Na",
-    "value": "древний"
-  },
-  {
-    "text": "Nai",
-    "value": "дуб"
-  },
-  {
-    "text": "Nim",
-    "value": "глубокий"
-  },
-  {
-    "text": "Nu",
-    "value": "надежда, надеющийся"
-  },
-  {
-    "text": "Ny",
-    "value": "алмаз"
-  },
-  {
-    "text": "Py",
-    "value": "сапфир"
-  },
-  {
-    "text": "Raer",
-    "value": "единорог"
-  },
-  {
-    "text": "Re",
-    "value": "медведь"
-  },
-  {
-    "text": "Ren",
-    "value": "запад"
-  },
-  {
-    "text": "Rhy",
-    "value": "нефрит"
-  },
-  {
-    "text": "Ry",
-    "value": "нефрит"
-  },
-  {
-    "text": "Ru",
-    "value": "мечта"
-  },
-  {
-    "text": "Rua",
-    "value": "звезда"
-  },
-  {
-    "text": "Rum",
-    "value": "луг"
-  },
-  {
-    "text": "Rid",
-    "value": "копье"
-  },
-  {
-    "text": "Sae",
-    "value": "лес"
-  },
-  {
-    "text": "Seh",
-    "value": "мягкий"
-  },
-  {
-    "text": "Sel",
-    "value": "высокий"
-  },
-  {
-    "text": "Sha",
-    "value": "солнце"
-  },
-  {
-    "text": "She",
-    "value": "век, время"
-  },
-  {
-    "text": "Si",
-    "value": "кот, кошка"
-  },
-  {
-    "text": "Sim",
-    "value": "север"
-  },
-  {
-    "text": "Sol",
-    "value": "история, память"
-  },
-  {
-    "text": "Sum",
-    "value": "вода"
-  },
-  {
-    "text": "Syl",
-    "value": "faerie нечто волшебное, предположительно фея"
-  },
-  {
-    "text": "Ta",
-    "value": "лиса"
-  },
-  {
-    "text": "Tahl",
-    "value": "клинок"
-  },
-  {
-    "text": "Tha",
-    "value": "бдительный"
-  },
-  {
-    "text": "Tho",
-    "value": "правдивый, истинный, правда"
-  },
-  {
-    "text": "Ther",
-    "value": "небо"
-  },
-  {
-    "text": "Thro",
-    "value": "знание, мудрец"
-  },
-  {
-    "text": "Tia",
-    "value": "магия"
-  },
-  {
-    "text": "Tra",
-    "value": "дерево"
-  },
-  {
-    "text": "Ty",
-    "value": "кристал"
-  },
-  {
-    "text": "Try",
-    "value": "кристал"
-  },
-  {
-    "text": "Uth",
-    "value": "волшебник"
-  },
-  {
-    "text": "Ver",
-    "value": "мир"
-  },
-  {
-    "text": "Vil",
-    "value": "палец, указание"
-  },
-  {
-    "text": "Von",
-    "value": "лед"
-  },
-  {
-    "text": "Ya",
-    "value": "мост, дорога, путь"
-  },
-  {
-    "text": "Za",
-    "value": "королевский"
-  },
-  {
-    "text": "Zy",
-    "value": "цвет слоновой кости"
-  }
+	{
+		"writing" : ["Ael"],
+		"value" : "рыцарь"
+	},
+	{
+		"writing" : ["Aer"],
+		"value" : "закон, порядок"
+	},
+	{
+		"writing" : ["Af"],
+		"value" : "кольцо"
+	},
+	{
+		"writing" : ["Ah"],
+		"value" : "хитрый"
+	},
+	{
+		"writing" : ["Al"],
+		"value" : "море, океан"
+	},
+	{
+		"writing" : ["Am"],
+		"value" : "лебедь"
+	},
+	{
+		"writing" : ["Ama"],
+		"value" : "прекрасный"
+	},
+	{
+		"writing" : ["An"],
+		"value" : "рука"
+	},
+	{
+		"writing" : ["Ang"],
+		"value" : "блеск, блестеть"
+	},
+	{
+		"writing" : ["Ansr"],
+		"value" : "руна"
+	},
+	{
+		"writing" : ["Ar"],
+		"value" : "золото, золотой"
+	},
+	{
+		"writing" : ["Arм"],
+		"value" : "серебро, серебрянный"
+	},
+	{
+		"writing" : ["Arn"],
+		"value" : "юг"
+	},
+	{
+		"writing" : ["Aza"],
+		"value" : "жизнь, живой"
+	},
+	{
+		"writing" : ["Bael"],
+		"value" : "защитник"
+	},
+	{
+		"writing" : ["Bes"],
+		"value" : "клятва"
+	},
+	{
+		"writing" : ["Cael"],
+		"value" : "лучник, стрела"
+	},
+	{
+		"writing" : ["Cal"],
+		"value" : "вера"
+	},
+	{
+		"writing" : ["Cas"],
+		"value" : "геральд"
+	},
+	{
+		"writing" : ["Cla"],
+		"value" : "роза"
+	},
+	{
+		"writing" : ["Cor"],
+		"value" : "легенда, легендарный"
+	},
+	{
+		"writing" : ["Cy"],
+		"value" : "оникс"
+	},
+	{
+		"writing" : ["Dae"],
+		"value" : "белый"
+	},
+	{
+		"writing" : ["Dho"],
+		"value" : "сокол"
+	},
+	{
+		"writing" : ["Dre"],
+		"value" : "собака"
+	},
+	{
+		"writing" : ["Du"],
+		"value" : "месяц (половинка луны)"
+	},
+	{
+		"writing" : ["Eil"],
+		"value" : "голубой, синий"
+	},
+	{
+		"writing" : ["Eir"],
+		"value" : "острый"
+	},
+	{
+		"writing" : ["El"],
+		"value" : "зеленый"
+	},
+	{
+		"writing" : ["Er"],
+		"value" : "кабан, боров"
+	},
+	{
+		"writing" : ["Ev"],
+		"value" : "олень"
+	},
+	{
+		"writing" : ["Fera"],
+		"value" : "чемпион"
+	},
+	{
+		"writing" : ["Fi"],
+		"value" : "река"
+	},
+	{
+		"writing" : ["Fir"],
+		"value" : "темный"
+	},
+	{
+		"writing" : ["Fis"],
+		"value" : "светлый"
+	},
+	{
+		"writing" : ["Gael"],
+		"value" : "pegasus"
+	},
+	{
+		"writing" : ["Gar"],
+		"value" : "сова"
+	},
+	{
+		"writing" : ["Gil"],
+		"value" : "гриффон"
+	},
+	{
+		"writing" : ["Ha"],
+		"value" : "свободный, свобода"
+	},
+	{
+		"writing" : ["Hu"],
+		"value" : "лошадь"
+	},
+	{
+		"writing" : ["Ia"],
+		"value" : "день"
+	},
+	{
+		"writing" : ["Il"],
+		"value" : "туман"
+	},
+	{
+		"writing" : ["Ja"],
+		"value" : "посох"
+	},
+	{
+		"writing" : ["Jar"],
+		"value" : "голубь"
+	},
+	{
+		"writing" : ["Ka"],
+		"value" : "дракон"
+	},
+	{
+		"writing" : ["Kan"],
+		"value" : "орел"
+	},
+	{
+		"writing" : ["Ker"],
+		"value" : "заклятие"
+	},
+	{
+		"writing" : ["Keth"],
+		"value" : "ветер"
+	},
+	{
+		"writing" : ["Koeh"],
+		"value" : "земля"
+	},
+	{
+		"writing" : ["Kor"],
+		"value" : "черный"
+	},
+	{
+		"writing" : ["Ky"],
+		"value" : "рубин"
+	},
+	{
+		"writing" : ["La"],
+		"value" : "ночь"
+	},
+	{
+		"writing" : ["Laf"],
+		"value" : "луна"
+	},
+	{
+		"writing" : ["Lam"],
+		"value" : "восток"
+	},
+	{
+		"writing" : ["Lue"],
+		"value" : "загадка"
+	},
+	{
+		"writing" : ["Ly"],
+		"value" : "волк"
+	},
+	{
+		"writing" : ["Mai"],
+		"value" : "смерть, убийца"
+	},
+	{
+		"writing" : ["Mal"],
+		"value" : "война"
+	},
+	{
+		"writing" : ["Mara"],
+		"value" : "священник"
+	},
+	{
+		"writing" : ["My"],
+		"value" : "изумруд"
+	},
+	{
+		"writing" : ["Na"],
+		"value" : "древний"
+	},
+	{
+		"writing" : ["Nai"],
+		"value" : "дуб"
+	},
+	{
+		"writing" : ["Nim"],
+		"value" : "глубокий"
+	},
+	{
+		"writing" : ["Nu"],
+		"value" : "надежда, надеющийся"
+	},
+	{
+		"writing" : ["Ny"],
+		"value" : "алмаз"
+	},
+	{
+		"writing" : ["Py"],
+		"value" : "сапфир"
+	},
+	{
+		"writing" : ["Raer"],
+		"value" : "единорог"
+	},
+	{
+		"writing" : ["Re"],
+		"value" : "медведь"
+	},
+	{
+		"writing" : ["Ren"],
+		"value" : "запад"
+	},
+	{
+		"writing" : ["Rhy", "Ry"],
+		"value" : "нефрит"
+	},
+	{
+		"writing" : ["Ru"],
+		"value" : "мечта"
+	},
+	{
+		"writing" : ["Rua"],
+		"value" : "звезда"
+	},
+	{
+		"writing" : ["Rum"],
+		"value" : "луг"
+	},
+	{
+		"writing" : ["Rid"],
+		"value" : "копье"
+	},
+	{
+		"writing" : ["Sae"],
+		"value" : "лес"
+	},
+	{
+		"writing" : ["Seh"],
+		"value" : "мягкий"
+	},
+	{
+		"writing" : ["Sel"],
+		"value" : "высокий"
+	},
+	{
+		"writing" : ["Sha"],
+		"value" : "солнце"
+	},
+	{
+		"writing" : ["She"],
+		"value" : "век, время"
+	},
+	{
+		"writing" : ["Si"],
+		"value" : "кот, кошка"
+	},
+	{
+		"writing" : ["Sim"],
+		"value" : "север"
+	},
+	{
+		"writing" : ["Sol"],
+		"value" : "история, память"
+	},
+	{
+		"writing" : ["Sum"],
+		"value" : "вода"
+	},
+	{
+		"writing" : ["Syl"],
+		"value" : "faerie нечто волшебное, предположительно фея"
+	},
+	{
+		"writing" : ["Ta"],
+		"value" : "лиса"
+	},
+	{
+		"writing" : ["Tahl"],
+		"value" : "клинок"
+	},
+	{
+		"writing" : ["Tha"],
+		"value" : "бдительный"
+	},
+	{
+		"writing" : ["Tho"],
+		"value" : "правдивый, истинный, правда"
+	},
+	{
+		"writing" : ["Ther"],
+		"value" : "небо"
+	},
+	{
+		"writing" : ["Thro"],
+		"value" : "знание, мудрец"
+	},
+	{
+		"writing" : ["Tia"],
+		"value" : "магия"
+	},
+	{
+		"writing" : ["Tra"],
+		"value" : "дерево"
+	},
+	{
+		"writing" : ["Ty", "Try"],
+		"value" : "кристал"
+	},
+	{
+		"writing" : ["Uth"],
+		"value" : "волшебник"
+	},
+	{
+		"writing" : ["Ver"],
+		"value" : "мир"
+	},
+	{
+		"writing" : ["Vil"],
+		"value" : "палец, указание"
+	},
+	{
+		"writing" : ["Von"],
+		"value" : "лед"
+	},
+	{
+		"writing" : ["Ya"],
+		"value" : "мост, дорога, путь"
+	},
+	{
+		"writing" : ["Za"],
+		"value" : "королевский"
+	},
+	{
+		"writing" : ["Zy"],
+		"value" : "цвет слоновой кости"
+	}
 ]
