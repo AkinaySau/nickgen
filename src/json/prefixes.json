@@ -1,402 +1,402 @@
 [
 	{
-		"writing" : ["Ael"],
+		"inscription" : ["Ael"],
 		"value" : "рыцарь"
 	},
 	{
-		"writing" : ["Aer"],
+		"inscription" : ["Aer"],
 		"value" : "закон, порядок"
 	},
 	{
-		"writing" : ["Af"],
+		"inscription" : ["Af"],
 		"value" : "кольцо"
 	},
 	{
-		"writing" : ["Ah"],
+		"inscription" : ["Ah"],
 		"value" : "хитрый"
 	},
 	{
-		"writing" : ["Al"],
+		"inscription" : ["Al"],
 		"value" : "море, океан"
 	},
 	{
-		"writing" : ["Am"],
+		"inscription" : ["Am"],
 		"value" : "лебедь"
 	},
 	{
-		"writing" : ["Ama"],
+		"inscription" : ["Ama"],
 		"value" : "прекрасный"
 	},
 	{
-		"writing" : ["An"],
+		"inscription" : ["An"],
 		"value" : "рука"
 	},
 	{
-		"writing" : ["Ang"],
+		"inscription" : ["Ang"],
 		"value" : "блеск, блестеть"
 	},
 	{
-		"writing" : ["Ansr"],
+		"inscription" : ["Ansr"],
 		"value" : "руна"
 	},
 	{
-		"writing" : ["Ar"],
+		"inscription" : ["Ar"],
 		"value" : "золото, золотой"
 	},
 	{
-		"writing" : ["Arм"],
+		"inscription" : ["Arм"],
 		"value" : "серебро, серебрянный"
 	},
 	{
-		"writing" : ["Arn"],
+		"inscription" : ["Arn"],
 		"value" : "юг"
 	},
 	{
-		"writing" : ["Aza"],
+		"inscription" : ["Aza"],
 		"value" : "жизнь, живой"
 	},
 	{
-		"writing" : ["Bael"],
+		"inscription" : ["Bael"],
 		"value" : "защитник"
 	},
 	{
-		"writing" : ["Bes"],
+		"inscription" : ["Bes"],
 		"value" : "клятва"
 	},
 	{
-		"writing" : ["Cael"],
+		"inscription" : ["Cael"],
 		"value" : "лучник, стрела"
 	},
 	{
-		"writing" : ["Cal"],
+		"inscription" : ["Cal"],
 		"value" : "вера"
 	},
 	{
-		"writing" : ["Cas"],
+		"inscription" : ["Cas"],
 		"value" : "геральд"
 	},
 	{
-		"writing" : ["Cla"],
+		"inscription" : ["Cla"],
 		"value" : "роза"
 	},
 	{
-		"writing" : ["Cor"],
+		"inscription" : ["Cor"],
 		"value" : "легенда, легендарный"
 	},
 	{
-		"writing" : ["Cy"],
+		"inscription" : ["Cy"],
 		"value" : "оникс"
 	},
 	{
-		"writing" : ["Dae"],
+		"inscription" : ["Dae"],
 		"value" : "белый"
 	},
 	{
-		"writing" : ["Dho"],
+		"inscription" : ["Dho"],
 		"value" : "сокол"
 	},
 	{
-		"writing" : ["Dre"],
+		"inscription" : ["Dre"],
 		"value" : "собака"
 	},
 	{
-		"writing" : ["Du"],
+		"inscription" : ["Du"],
 		"value" : "месяц (половинка луны)"
 	},
 	{
-		"writing" : ["Eil"],
+		"inscription" : ["Eil"],
 		"value" : "голубой, синий"
 	},
 	{
-		"writing" : ["Eir"],
+		"inscription" : ["Eir"],
 		"value" : "острый"
 	},
 	{
-		"writing" : ["El"],
+		"inscription" : ["El"],
 		"value" : "зеленый"
 	},
 	{
-		"writing" : ["Er"],
+		"inscription" : ["Er"],
 		"value" : "кабан, боров"
 	},
 	{
-		"writing" : ["Ev"],
+		"inscription" : ["Ev"],
 		"value" : "олень"
 	},
 	{
-		"writing" : ["Fera"],
+		"inscription" : ["Fera"],
 		"value" : "чемпион"
 	},
 	{
-		"writing" : ["Fi"],
+		"inscription" : ["Fi"],
 		"value" : "река"
 	},
 	{
-		"writing" : ["Fir"],
+		"inscription" : ["Fir"],
 		"value" : "темный"
 	},
 	{
-		"writing" : ["Fis"],
+		"inscription" : ["Fis"],
 		"value" : "светлый"
 	},
 	{
-		"writing" : ["Gael"],
+		"inscription" : ["Gael"],
 		"value" : "pegasus"
 	},
 	{
-		"writing" : ["Gar"],
+		"inscription" : ["Gar"],
 		"value" : "сова"
 	},
 	{
-		"writing" : ["Gil"],
+		"inscription" : ["Gil"],
 		"value" : "гриффон"
 	},
 	{
-		"writing" : ["Ha"],
+		"inscription" : ["Ha"],
 		"value" : "свободный, свобода"
 	},
 	{
-		"writing" : ["Hu"],
+		"inscription" : ["Hu"],
 		"value" : "лошадь"
 	},
 	{
-		"writing" : ["Ia"],
+		"inscription" : ["Ia"],
 		"value" : "день"
 	},
 	{
-		"writing" : ["Il"],
+		"inscription" : ["Il"],
 		"value" : "туман"
 	},
 	{
-		"writing" : ["Ja"],
+		"inscription" : ["Ja"],
 		"value" : "посох"
 	},
 	{
-		"writing" : ["Jar"],
+		"inscription" : ["Jar"],
 		"value" : "голубь"
 	},
 	{
-		"writing" : ["Ka"],
+		"inscription" : ["Ka"],
 		"value" : "дракон"
 	},
 	{
-		"writing" : ["Kan"],
+		"inscription" : ["Kan"],
 		"value" : "орел"
 	},
 	{
-		"writing" : ["Ker"],
+		"inscription" : ["Ker"],
 		"value" : "заклятие"
 	},
 	{
-		"writing" : ["Keth"],
+		"inscription" : ["Keth"],
 		"value" : "ветер"
 	},
 	{
-		"writing" : ["Koeh"],
+		"inscription" : ["Koeh"],
 		"value" : "земля"
 	},
 	{
-		"writing" : ["Kor"],
+		"inscription" : ["Kor"],
 		"value" : "черный"
 	},
 	{
-		"writing" : ["Ky"],
+		"inscription" : ["Ky"],
 		"value" : "рубин"
 	},
 	{
-		"writing" : ["La"],
+		"inscription" : ["La"],
 		"value" : "ночь"
 	},
 	{
-		"writing" : ["Laf"],
+		"inscription" : ["Laf"],
 		"value" : "луна"
 	},
 	{
-		"writing" : ["Lam"],
+		"inscription" : ["Lam"],
 		"value" : "восток"
 	},
 	{
-		"writing" : ["Lue"],
+		"inscription" : ["Lue"],
 		"value" : "загадка"
 	},
 	{
-		"writing" : ["Ly"],
+		"inscription" : ["Ly"],
 		"value" : "волк"
 	},
 	{
-		"writing" : ["Mai"],
+		"inscription" : ["Mai"],
 		"value" : "смерть, убийца"
 	},
 	{
-		"writing" : ["Mal"],
+		"inscription" : ["Mal"],
 		"value" : "война"
 	},
 	{
-		"writing" : ["Mara"],
+		"inscription" : ["Mara"],
 		"value" : "священник"
 	},
 	{
-		"writing" : ["My"],
+		"inscription" : ["My"],
 		"value" : "изумруд"
 	},
 	{
-		"writing" : ["Na"],
+		"inscription" : ["Na"],
 		"value" : "древний"
 	},
 	{
-		"writing" : ["Nai"],
+		"inscription" : ["Nai"],
 		"value" : "дуб"
 	},
 	{
-		"writing" : ["Nim"],
+		"inscription" : ["Nim"],
 		"value" : "глубокий"
 	},
 	{
-		"writing" : ["Nu"],
+		"inscription" : ["Nu"],
 		"value" : "надежда, надеющийся"
 	},
 	{
-		"writing" : ["Ny"],
+		"inscription" : ["Ny"],
 		"value" : "алмаз"
 	},
 	{
-		"writing" : ["Py"],
+		"inscription" : ["Py"],
 		"value" : "сапфир"
 	},
 	{
-		"writing" : ["Raer"],
+		"inscription" : ["Raer"],
 		"value" : "единорог"
 	},
 	{
-		"writing" : ["Re"],
+		"inscription" : ["Re"],
 		"value" : "медведь"
 	},
 	{
-		"writing" : ["Ren"],
+		"inscription" : ["Ren"],
 		"value" : "запад"
 	},
 	{
-		"writing" : ["Rhy", "Ry"],
+		"inscription" : ["Rhy", "Ry"],
 		"value" : "нефрит"
 	},
 	{
-		"writing" : ["Ru"],
+		"inscription" : ["Ru"],
 		"value" : "мечта"
 	},
 	{
-		"writing" : ["Rua"],
+		"inscription" : ["Rua"],
 		"value" : "звезда"
 	},
 	{
-		"writing" : ["Rum"],
+		"inscription" : ["Rum"],
 		"value" : "луг"
 	},
 	{
-		"writing" : ["Rid"],
+		"inscription" : ["Rid"],
 		"value" : "копье"
 	},
 	{
-		"writing" : ["Sae"],
+		"inscription" : ["Sae"],
 		"value" : "лес"
 	},
 	{
-		"writing" : ["Seh"],
+		"inscription" : ["Seh"],
 		"value" : "мягкий"
 	},
 	{
-		"writing" : ["Sel"],
+		"inscription" : ["Sel"],
 		"value" : "высокий"
 	},
 	{
-		"writing" : ["Sha"],
+		"inscription" : ["Sha"],
 		"value" : "солнце"
 	},
 	{
-		"writing" : ["She"],
+		"inscription" : ["She"],
 		"value" : "век, время"
 	},
 	{
-		"writing" : ["Si"],
+		"inscription" : ["Si"],
 		"value" : "кот, кошка"
 	},
 	{
-		"writing" : ["Sim"],
+		"inscription" : ["Sim"],
 		"value" : "север"
 	},
 	{
-		"writing" : ["Sol"],
+		"inscription" : ["Sol"],
 		"value" : "история, память"
 	},
 	{
-		"writing" : ["Sum"],
+		"inscription" : ["Sum"],
 		"value" : "вода"
 	},
 	{
-		"writing" : ["Syl"],
+		"inscription" : ["Syl"],
 		"value" : "faerie нечто волшебное, предположительно фея"
 	},
 	{
-		"writing" : ["Ta"],
+		"inscription" : ["Ta"],
 		"value" : "лиса"
 	},
 	{
-		"writing" : ["Tahl"],
+		"inscription" : ["Tahl"],
 		"value" : "клинок"
 	},
 	{
-		"writing" : ["Tha"],
+		"inscription" : ["Tha"],
 		"value" : "бдительный"
 	},
 	{
-		"writing" : ["Tho"],
+		"inscription" : ["Tho"],
 		"value" : "правдивый, истинный, правда"
 	},
 	{
-		"writing" : ["Ther"],
+		"inscription" : ["Ther"],
 		"value" : "небо"
 	},
 	{
-		"writing" : ["Thro"],
+		"inscription" : ["Thro"],
 		"value" : "знание, мудрец"
 	},
 	{
-		"writing" : ["Tia"],
+		"inscription" : ["Tia"],
 		"value" : "магия"
 	},
 	{
-		"writing" : ["Tra"],
+		"inscription" : ["Tra"],
 		"value" : "дерево"
 	},
 	{
-		"writing" : ["Ty", "Try"],
+		"inscription" : ["Ty", "Try"],
 		"value" : "кристал"
 	},
 	{
-		"writing" : ["Uth"],
+		"inscription" : ["Uth"],
 		"value" : "волшебник"
 	},
 	{
-		"writing" : ["Ver"],
+		"inscription" : ["Ver"],
 		"value" : "мир"
 	},
 	{
-		"writing" : ["Vil"],
+		"inscription" : ["Vil"],
 		"value" : "палец, указание"
 	},
 	{
-		"writing" : ["Von"],
+		"inscription" : ["Von"],
 		"value" : "лед"
 	},
 	{
-		"writing" : ["Ya"],
+		"inscription" : ["Ya"],
 		"value" : "мост, дорога, путь"
 	},
 	{
-		"writing" : ["Za"],
+		"inscription" : ["Za"],
 		"value" : "королевский"
 	},
 	{
-		"writing" : ["Zy"],
+		"inscription" : ["Zy"],
 		"value" : "цвет слоновой кости"
 	}
 ]
