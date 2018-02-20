@@ -1,7 +1,7 @@
 <template>
     <ul class="container-fluid col-md-6">
         <li v-for="item in list">
-            <b>{{item.text}}</b> - {{item.value}}
+            <b>{{item.use}}</b> - {{item.value}}
         </li>
     </ul>
 </template>

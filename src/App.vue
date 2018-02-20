@@ -103,18 +103,27 @@
                 this.suffix = val;
             },
             generateNickname: function () {
-                this.nickname.value.prefix = Sau.randArrItems(this.prefixes, this.prefix);
-                this.nickname.value.suffix = Sau.randArrItems(this.prefixes, this.suffix);
+                let prefix = Sau.randArrItems(this.prefixes, this.prefix);
+                $.each(prefix, function (k, i) {
+                    prefix[k].use = _.join(Sau.randArrItems(i.inscription));
+                });
+                let suffix = Sau.randArrItems(this.prefixes, this.suffix);
+                $.each(suffix, function (k, i) {
+                    suffix[k].use = _.join(Sau.randArrItems(i.inscription));
+                });
+
+                this.nickname.value.prefix = prefix;
+                this.nickname.value.suffix = suffix;
                 this.collectNickName();
             },
             collectNickName: function () {
                 let p, s;
                 p = s = '';
                 $.each(this.nickname.value.prefix, function (k, i) {
-                    p += i.text;
+                    p += i.use;
                 });
                 $.each(this.nickname.value.suffix, function (k, i) {
-                    s += i.text;
+                    s += i.use;
                 });
                 let nick = p + this.nickname.core + s;
                 this.nickname.nick = nick[0].toUpperCase() + nick.substring(1).toLowerCase();
