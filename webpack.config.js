@@ -3,6 +3,11 @@ let path = require('path');
 let webpack = require('webpack');
 let ExtractTextPlugin = require("extract-text-webpack-plugin");
 
+const UnminifiedWebpackPlugin = require("unminified-webpack-plugin");
+const UglifyjsWebpackPlugin = require("uglifyjs-webpack-plugin");
+const extractSass = new ExtractTextPlugin({filename: "main.css"});
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
     entry: './src/main.js',
     output: {
@@ -28,22 +33,72 @@ module.exports = {
             },
             {
                 test: /\.js$/,
-                loader: 'babel-loader',
+                use: ['babel-loader', 'jshint-loader'],
                 exclude: /node_modules/
             },
+            // {
+            //     test: /\.css$/,
+            //     use: ExtractTextPlugin.extract({
+            //         fallback: "style-loader",
+            //         use: "css-loader"
+            //     })
+            // },
             {
-                test: /\.css$/,
-                use: ExtractTextPlugin.extract({
-                    fallback: "style-loader",
-                    use: "css-loader"
-                })
+                test: /\.scss$/,
+                use: extractSass.extract({
+                        fallback: 'style-loader',
+                        use: ["css-loader", "resolve-url-loader", {
+                            loader: 'postcss-loader',
+                            options: {
+                                plugins: [
+                                    autoprefixer({
+                                        browsers: ['ie >= 8', 'last 4 version']
+                                    })
+                                ],
+                                sourceMap: true
+                            }
+                        }, 'sass-loader']
+                    }
+                )
             },
             {
-                test: /\.(png|jpg|gif|svg)$/,
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]?[hash]'
-                }
+                test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            publicPath: '../dist/',
+                            outputPath: 'images/'
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            publicPath: '../dist/',
+                            outputPath: 'media/'
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            publicPath: '../dist/',
+                            outputPath: 'fonts/'
+                        }
+                    }
+                ]
             }
         ]
     },
@@ -60,12 +115,22 @@ module.exports = {
         hints: false
     },
     plugins: [
-        new ExtractTextPlugin("main.css"),
+        // new ExtractTextPlugin("main.css"),
+        // ************************************* //
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        }),
+        new UglifyjsWebpackPlugin(),
+        new UnminifiedWebpackPlugin(),
+        extractSass,
+        // ************************************* //
         new webpack.ProvidePlugin({
             '$': 'jquery',
             'jQuery': 'jquery',
             '_': 'lodash',
-            'Sau':['/var/www/html/sau/vue/nicGen/lib/Sau.js']
+            'Sau': ['/var/www/html/sau/vue/nicGen/lib/Sau.js']
         })
     ],
     devtool: '#eval-source-map'
