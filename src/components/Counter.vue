@@ -1,5 +1,5 @@
 <template>
-    <div class="form-group col-md-6">
+    <div class="form-group">
         <label v-if="label">{{label}}</label>
         <div class="input-group">
             <div class="input-group-prepend">
