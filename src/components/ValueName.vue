@@ -1,9 +1,9 @@
 <template>
-    <ul class="container-fluid col-md-6">
-        <li v-for="item in list">
-            <b>{{item.use}}</b> - {{item.value}}
-        </li>
-    </ul>
+	<ul class="col-md-6 col-sm-auto nick-values">
+		<li v-for="item in list">
+			<b>{{item.use}}</b> - {{item.value}}
+		</li>
+	</ul>
 </template>
 
 <script>
@@ -19,5 +19,7 @@
 </script>
 
 <style lang="scss">
-
+	.nick-values {
+		list-style: none
+	}
 </style>

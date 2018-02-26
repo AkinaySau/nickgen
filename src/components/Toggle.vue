@@ -1,10 +1,12 @@
 <template>
-	<div class="input-group">
-		<p>Пол</p>
-		<div class="btn-group" role="group" :aria-label="label">
-			<button v-for="item in list" v-on:click="check(item.value)" type="button" class="btn btn-secondary">
-				{{item.label}}
-			</button>
+	<div class="form-group toggle">
+		<label>{{label}}</label>
+		<div class="btn-group-toggle">
+			<div class="btn-group" role="group" :aria-label="label">
+				<button v-for="item in list" v-on:click="check(item.value)" type="button" :class="item.value === toggle ? 'disabled' : '' " class="btn btn-light">
+					{{item.label}}
+				</button>
+			</div>
 		</div>
 	</div>
 </template>
@@ -40,6 +42,12 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss">
+	.btn-group-toggle {
+		.btn-light {
+			&:focus, &.focus {
+				box-shadow: none;
+			}
+		}
+	}
 </style>

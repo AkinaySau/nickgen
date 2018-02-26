@@ -33,7 +33,8 @@ module.exports = {
             },
             {
                 test: /\.js$/,
-                use: ['babel-loader', 'jshint-loader'],
+                use: ['babel-loader'],
+                // use: ['babel-loader', 'jshint-loader'],
                 exclude: /node_modules/
             },
             // {
@@ -47,7 +48,7 @@ module.exports = {
                 test: /\.scss$/,
                 use: extractSass.extract({
                         fallback: 'style-loader',
-                        use: ["css-loader", "resolve-url-loader", {
+                        use: ["css-loader", {
                             loader: 'postcss-loader',
                             options: {
                                 plugins: [
@@ -57,7 +58,7 @@ module.exports = {
                                 ],
                                 sourceMap: true
                             }
-                        }, 'sass-loader']
+                        }, 'sass-loader',"resolve-url-loader"]
                     }
                 )
             },
@@ -115,15 +116,15 @@ module.exports = {
         hints: false
     },
     plugins: [
-        // new ExtractTextPlugin("main.css"),
+        new ExtractTextPlugin("main.css"),
         // ************************************* //
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false
-            }
-        }),
-        new UglifyjsWebpackPlugin(),
-        new UnminifiedWebpackPlugin(),
+        // new webpack.optimize.UglifyJsPlugin({
+        //     compress: {
+        //         warnings: false
+        //     }
+        // }),
+        // new UglifyjsWebpackPlugin(),
+        // new UnminifiedWebpackPlugin(),
         extractSass,
         // ************************************* //
         new webpack.ProvidePlugin({
@@ -134,7 +135,7 @@ module.exports = {
         })
     ],
     devtool: '#eval-source-map'
-}
+};
 
 if (process.env.NODE_ENV === 'production') {
     module.exports.devtool = '#source-map'
