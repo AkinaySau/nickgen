@@ -1,12 +1,11 @@
 'use strict';
-let path = require('path');
-let webpack = require('webpack');
-let ExtractTextPlugin = require("extract-text-webpack-plugin");
+const path = require('path');
+const webpack = require('webpack');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-const UnminifiedWebpackPlugin = require("unminified-webpack-plugin");
-const UglifyjsWebpackPlugin = require("uglifyjs-webpack-plugin");
 const extractSass = new ExtractTextPlugin({filename: "main.css"});
 const autoprefixer = require('autoprefixer');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
     entry: './src/main.js',
@@ -22,28 +21,16 @@ module.exports = {
                 loader: 'vue-loader',
                 options: {
                     loaders: {
-                        // Since sass-loader (weirdly) has SCSS as its default parse mode, we map
-                        // the "scss" and "sass" values for the lang attribute to the right configs here.
-                        // other preprocessors should work out of the box, no loader config like this necessary.
                         'scss': 'vue-style-loader!css-loader!sass-loader',
                         'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
                     }
-                    // other vue-loader options go here
                 }
             },
             {
                 test: /\.js$/,
                 use: ['babel-loader'],
-                // use: ['babel-loader', 'jshint-loader'],
                 exclude: /node_modules/
             },
-            // {
-            //     test: /\.css$/,
-            //     use: ExtractTextPlugin.extract({
-            //         fallback: "style-loader",
-            //         use: "css-loader"
-            //     })
-            // },
             {
                 test: /\.scss$/,
                 use: extractSass.extract({
@@ -58,7 +45,7 @@ module.exports = {
                                 ],
                                 sourceMap: true
                             }
-                        }, 'sass-loader',"resolve-url-loader"]
+                        }, 'sass-loader', "resolve-url-loader"]
                     }
                 )
             },
@@ -118,18 +105,12 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin("main.css"),
         // ************************************* //
-        // new webpack.optimize.UglifyJsPlugin({
-        //     compress: {
-        //         warnings: false
-        //     }
-        // }),
-        // new UglifyjsWebpackPlugin(),
-        // new UnminifiedWebpackPlugin(),
+        new webpack.optimize.UglifyJsPlugin({minimize: true, compress:true}),
+        new OptimizeCssAssetsPlugin({}),
+        // ************************************* //
         extractSass,
         // ************************************* //
         new webpack.ProvidePlugin({
-            '$': 'jquery',
-            'jQuery': 'jquery',
             '_': 'lodash',
             'Sau': ['/var/www/html/sau/vue/nicGen/lib/Sau.js']
         })

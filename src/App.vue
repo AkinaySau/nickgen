@@ -32,6 +32,7 @@
 					         label="Префиксы"
 					/>
 					<counter :counter="suffix"
+					         :max="suffixes.length"
 					         @update="suffixUpdate"
 					         class="col-md-6"
 					         label="Суффиксы"
@@ -53,6 +54,7 @@
 </template>
 
 <script>
+    'use strict';
     import Counter from './components/Counter.vue';
     import ValueName from './components/ValueName.vue';
     import Toggle from "./components/Toggle.vue";
@@ -115,11 +117,13 @@
             generateNickname: function () {
                 let type = this.type;
                 let prefix = Sau.randArrItems(this.prefixes, this.prefix);
-                $.each(prefix, function (k, i) {
-                    prefix[k].use = _.sample(i.inscription);
+                _.map(prefix, function (i) {
+                    i.use = _.sample(i.inscription);
+                    return i;
                 });
+
                 let suffix = Sau.randArrItems(this.suffixes, this.suffix);
-                $.each(suffix, function (k, i) {
+                _.map(suffix, function (i) {
                     let group = i.inscription.general;
                     if (type === 1 || type === 0) {
                         group = _.concat(group, i.inscription.male)
@@ -127,7 +131,8 @@
                     if (type === 2 || type === 0) {
                         group = _.concat(group, i.inscription.female)
                     }
-                    suffix[k].use = _.sample(group);
+                    i.use = _.sample(group);
+                    return i;
                 });
 
                 this.nickname.value.prefix = prefix;
@@ -137,10 +142,10 @@
             collectNickName: function () {
                 let p, s;
                 p = s = '';
-                $.each(this.nickname.value.prefix, function (k, i) {
+                _.map(this.nickname.value.prefix, function (i) {
                     p += i.use;
                 });
-                $.each(this.nickname.value.suffix, function (k, i) {
+                _.map(this.nickname.value.suffix, function (i) {
                     s += i.use;
                 });
                 let nick = p + this.nickname.core + s;
@@ -154,7 +159,7 @@
             type: function () {
                 this.generateNickname()
             },
-	        prefix: function () {
+            prefix: function () {
                 this.generateNickname()
             },
             suffix: function () {
